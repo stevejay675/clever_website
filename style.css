@@ -1,0 +1,740 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+button{
+    outline: none;
+    border: transparent;
+}
+
+
+
+.alert{
+    width: 100vw;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.4;
+    background-color: #9e3024;
+    color: #ffffff;
+    box-shadow: 0 2px 4px rgb(75, 54, 54);
+    
+
+}
+
+
+
+.learn-more{
+    color: #ffffff;
+}
+
+.navbar{
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px #b7cdf3;
+    height: 15vh;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttondiv{
+    position: relative;
+}
+
+
+.navtext {
+    color: #0a1e46;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.5s;
+    
+}
+
+
+.hiddentab{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 45vh;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(75, 54, 54);
+    text-decoration: none;
+    visibility: hidden;
+    transition: 0.5s;
+    top: 50px;
+    width: 15vw;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.hiddentab2{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 45vh;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgb(75, 54, 54);
+    text-decoration: none;
+    left: 82%;
+    transition: 0.5s;
+    top: 120px;
+    width: 15vw;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.hiddentab ul{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.buttondiv:hover .hiddentab2{
+    visibility: visible;
+}
+
+.link1:hover{
+    color: #1464ff;
+}
+
+
+.navtext a{
+    text-decoration: none;
+    color: #0a1e46;
+}
+
+.navtext:hover .hiddentab{
+visibility: visible; 
+  
+}
+
+.navtext:hover{
+    border-bottom: 2px solid orangered; 
+}
+
+.navtext:hover .bi.bi-chevron-down{
+    transform: rotate(180deg);
+    transform-origin: center;
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    position: relative;
+    
+}
+
+.clever{
+    color: #2775ff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.login i{
+    position: static;
+}
+
+.icon{
+    position: absolute;
+    top: 4px;
+    font-size: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.buttonicon{
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.login{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+    background-color: #2775ff;
+    cursor: pointer;
+    color: #ffffff;
+    border: 1px solid #1464ff;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+    font-family: "MessinaSans";
+    color: #fff;
+    transition: all .4s;
+    font-weight: bold;
+    position: relative;
+    
+}
+
+
+.navtext .hiddentab ul{
+    list-style-type: none;
+}
+
+.navbar .hiddentab ul li a{
+    text-decoration: none;
+}
+
+
+.login:hover{
+    background-color: #0a40ad;
+}
+
+.mainheader1{
+    display: flex;
+
+}
+
+.main1{
+    display: flex;
+    flex-direction: column;
+}
+
+.main11{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+
+}
+
+.teenager{
+    width: 400px;
+    height: 300px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    border-radius: 20px;
+
+    
+}
+
+.mainheader2{
+    width: 75%;
+    position: relative;
+    background-color: #edf5ff;
+    margin-top: 10%;
+    border-top-right-radius: 75%;
+    padding-bottom: 50px;
+}
+
+.button1 button{
+    background-color: #1464ff;
+    color: #fff;
+    text-align: center;
+    width: 75%;
+    height: 18vh;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 45px;
+    position: absolute;
+    top: -88px;
+}
+
+.text1{
+    font-size: 65px;
+    opacity: 1;
+    clear: both;
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #0a1e46;
+    margin: 0px 0px 47px;
+
+}
+
+.text2{
+    font-family: "ABCArizonaMix",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    line-height: 1.5;
+    font-weight: 400;
+    color: #000;
+}
+
+.loginbut{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.loginbut:hover{
+    background-color: #135df1;
+}
+
+.button2{
+    width: 75%;
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+   margin-left: 40px;
+   gap: 10px;
+}
+
+.button2 a{
+    text-decoration: none;
+    
+}
+
+.buttest1{
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    width: 49%;
+    background-color: #fff;
+    text-align: center;
+    height: 18vh;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px #d5dce5;
+    transition: 0.5s;
+}
+
+.buttest1:hover .for-schools{
+    color: #1464ff;
+}
+
+.as-student{
+    font-size: 25px;
+    line-height: 1.4;
+}
+
+.buttest2{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 49%;
+    background-color: #fff;
+    height: 18vh;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px #d5dce5;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.buttest2:hover .for-schools{
+    color: #1464ff;
+}
+
+.mainheader3{
+    display: flex;
+    justify-content: space-between;
+    background-color:  #edf5ff;
+    padding-top: 10px;
+    padding-left: 40px;
+    align-items: center;
+    
+}
+
+h2{
+    font-size: 3.3125rem;
+    line-height: 120%;
+    clear: both;
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #0a1e46;
+}
+
+.mainheader4{
+
+    padding-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./images/shapes-pattern-2.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    gap: 20px;
+    align-items: center;
+    transition: background-color 0.5s ease;
+    background-color: #edf5ff;
+    border: none;
+    padding-bottom: 55px;
+
+}
+
+.img10{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-mask-repeat: no-repeat;
+    min-height: 30vw;
+    -webkit-mask-size: 100% 100%;
+}
+
+.mainheader41{
+    display: flex;
+    flex-direction: column;
+}
+
+.control{
+    clear: both;
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #0a1e46;
+}
+
+.identify{
+    clear: both;
+    margin: 0 0 15px;
+    font-weight: 400;
+    color: #0a1e46;
+    font-family: "MessinaSans";
+    font-weight: 500;
+    line-height: 170%;
+}
+
+.schools{
+    color: #1464ff;
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.mainheader5{
+    display: flex;
+    align-items: center;
+    gap: ;
+    justify-content: space-between;
+    transition: background-color 0.5s ease;
+    background-image: url('./images/shapes-pattern-3.svg');
+    background-repeat: no-repeat;
+    background-color: #edf5ff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 30px 40px;
+    border: none;
+    background-position: right;
+    background-position-y: bottom;
+    padding-top: 200px;
+}
+
+.img11{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-mask-repeat: no-repeat;
+    min-height: 30vw;
+    -webkit-mask-size: 100% 100%;
+}
+
+
+  
+
+
+
+.mainheader6{
+    display: flex;
+    background-image: url('./images/shapes-pattern-4.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #edf5ff;
+    padding-top: 100px;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.img12{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-mask-repeat: no-repeat;
+    min-height: 30vw;
+    -webkit-mask-size: 100% 100%;
+}
+
+.float-image{
+  background-color: #edf5ff;
+  width: 100%;
+  padding-left: 80%;
+  padding-top: 8%;
+}
+
+
+.mainheader7{
+    width: 100%;
+    background-color: #edf5ff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    align-items: center;
+    
+}
+
+.img13{
+    width: 80%;
+    height: 30%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-mask-repeat: no-repeat;
+    min-height: 30vw;
+    -webkit-mask-size: 100% 100%;
+    float: right;
+   
+}
+
+.mainheader71{
+    width: 200%;
+}
+
+.schools7{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    color: #fff;
+    background-color: #1464ff;
+    transition: all .4s;
+    border: 0;
+    padding: 13px 24px 13px 32px;
+    border-radius: 10px;
+    font-family: "MessinaSans";
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.schools7:hover {
+    background-color: #135df1;
+}
+
+.mainheader8{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: #0a1e46;
+    width: 100%;   
+    height: 50vh;
+    width: 100%;
+    border-radius: 5px
+}
+
+.mainheader81{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.about-us{
+    display: flex;
+    color: #fff;
+    padding: 13px 24px 13px 32px;
+    border-radius: 10px;
+    font-family: "MessinaSans";
+    font-weight: 600;
+    display: inline-block;
+    align-self: center;
+    background-color: #2775ff;
+    text-decoration: none;
+    margin-left: 40%;
+    margin-top: 8px;
+    transition: 0.5s;
+
+}
+
+.mainheader9{
+    display: flex;
+    flex-direction: column;
+ background-color: #1464ff;
+ color: #fff;
+ margin-top: 5%;
+justify-content: center;
+height: 30vh;
+padding-top: 10%;
+padding-bottom: 10%;
+ 
+}
+
+.mainheader9 h2{
+    align-self: center;
+    color: #fff;
+    font-size: 30px;
+}
+
+.mainheader91{
+    display: flex ;
+    align-self: center;
+}
+
+.email{
+    width: 300px;
+    border: 1px solid #fff;
+    background-color: #135df1;
+    color: #fff;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+    
+}
+
+.email::placeholder{
+    color: #fff;
+    padding: 20px;
+}
+
+.submit{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    color: #135df1;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+.about-us:hover{
+    background-color: #135df1;
+}
+
+
+.mainheader10{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainheader10b{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8%;
+    margin-left: 20%;
+}
+
+
+.mainheader101 h1{
+    color: #1464ff;
+    font-size: 60px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.mainheader101 span{
+    color: #0a1e46;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.mainheader1011{
+    width: 200px;
+    margin-left: 20px;
+}
+
+.mainheader1011 i{
+    background-color: #1464ff;
+    color: #fff;
+    width: auto;
+    height: auto;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.mainheader101{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    gap: 20px;
+    font-family: "ABCArizonaMix";
+    font-weight: 700;
+}
+
+.mainheader102{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.anchor1{
+    font-weight: 600;
+    color: #0a1e46;
+}
+
+.anchor2{
+    color: #0a1e46;
+}
+
+.mainheader102 a{
+    text-decoration: none;
+}
+
+.myfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    background-color: #edf5ff;
+    padding: 52px 0 54px;
+}
+
+.mytext a{
+    text-decoration: none;
+    border-left: 1px solid #0a1e46;
+}
+
+
+.lastfooter{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    
+}
+@media screen  and (max-width: 1000px){
+
+    .nav2{
+        display: none;
+    }
+    
+    
+}
